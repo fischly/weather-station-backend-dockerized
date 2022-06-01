@@ -3,7 +3,7 @@ services:
   mosquitto:
     build: ./mosquitto/
     expose:
-      - "133339"
+      - "13339"
     ports:
       - "13339:13339"
   logger:
